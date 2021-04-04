@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+.wrapper{
+    position: relative;
+    top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 300px;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    background-color:rgb(253, 253, 253);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.global-wrapper{
+    background-image: url(images/double-bubble.png);
+    width: 100vw;
+    min-height: 100vh;  
+}
+
+  
+
+label, input, select{
+  display: block;
+}   
+
+
+.btn {
+  display: block;
+  max-width: 20%;
+  min-width: 10%;
+  border: 0;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius:10px;
+  font-size: larger;
+  margin: auto;
+}
+
+input[type=date], select { 
+  width: 100%;
+  margin-top: 3px;
+  padding:10px;
+  border-radius:10px;
+  margin-bottom: 20px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+input:hover {
+  border: 1px solid #aaa;
+}
+
+select:hover {
+  border: 1px solid #aaa;
+}
+
+.main-form{
+  text-align:start;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 50%;
+ 
+}
+
+main{
+  font-family: monospace;
+}
+
+table {
+  font-size: 14px;
+  border-radius: 10px;
+  border-spacing: 0;
+  text-align: center;
+  min-width: 1000px;
+  margin: auto;
+  border-style: solid;
+  border-width: 0px 0px 1px 1px;
+  border-color: black;
+  }
+th {
+  background: #efefef;
+  color: black;
+  text-shadow: 0 1px 1px black;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  }
+
+th, td {
+  border-style: solid;
+  border-width: 1px 1px 0px 0px;
+  border-color: black;
+  }
+
+th:first-child, td:first-child {
+  text-align: left;
+  }
+
+th:first-child {
+  border-top-left-radius: 10px;
+  }
+
+th:last-child {
+  border-top-right-radius: 10px;
+  }
+
+td {
+  padding: 10px 20px;
+  background: white;
+  }
+
+tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+  }
+  
+tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 30px;
+  }
+

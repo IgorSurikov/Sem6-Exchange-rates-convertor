@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+.wrapper{
+    position: relative;
+    top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 300px;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    background-color:rgb(253, 253, 253);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.global-wrapper{
+    background-image: url(images/double-bubble.png);
+    width: 100vw;
+    min-height: 100vh;  
+}
+
+
+label, input, select{
+  display: block;
+}   
+
+
+.btn {
+  display: block;
+  min-width: 10%;
+  border: 0;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius:10px;
+  font-size: larger;
+  margin: auto;
+}
+
+input[type=text], select { 
+  width: 100%;
+  margin-top: 3px;
+  padding:10px;
+  border-radius:10px;
+  margin-bottom: 20px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+input:hover {
+  border: 1px solid #aaa;
+}
+
+select:hover {
+  border: 1px solid #aaa;
+}
+
+.main-form{
+  text-align:start;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 50%;
+ 
+}
+
+main{
+  font-family: monospace;
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: 30px;
+  }
+
+.convertor-result{
+  text-align: center;
+  font-size: larger;
+  margin: 20px;
+  padding: 20px;
+}

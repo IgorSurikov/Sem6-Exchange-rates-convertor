@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-convertor.css">
+    <link rel="stylesheet" href="style-nav.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="nav-wrapper">
+        <div class="nav-position-wrapper">
+            <nav class="navbar">
+                <div class="nav-item">
+                    <a href="index.html">
+                        <h1>Валюты мира</h1>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="index.html">Курсы валют</a></li>
+                    <li class="nav-item nav-active"><a href="convertor.html">Конвертер валют</a></li>
+                    <li class="nav-item"><a href="register.html">Регистрация</a></li>
+                    <li class="nav-item"><a href="login.html">Войти</a></li>
+                </ul>
+            </nav>
+
+    </header>
+    </div>
+    <div class="global-wrapper">
+        <div class="wrapper">
+            <main>
+                <h2>
+                    Конвертор валют
+                </h2>
+                <form class="main-form" name="mainForm">
+                    <label for="currenciesSelectFrom">
+                        Из:
+                    </label>
+                    <select id="currenciesSelectFrom" name="currenciesSelectFrom"></select>
+                    <br>
+                    <label for="currenciesSelectТо">
+                        в:
+                    </label>
+                    <select id="currenciesSelectТо" name="currenciesSelectТо"></select>
+                    <br>
+                    <label for="CurAmount">Количество:</label>
+                    <input type="text" id="CurAmount" name="CurAmount" value="1">
+                    <br>
+                    <input class="btn" type="submit" id="currenciesBtn" value="Конвертировать">
+
+                </form>
+                <article id="convertor-result" class="convertor-result">
+
+                </article>
+
+
+            </main>
+        </div>
+    </div>
+
+    <script src="convertor_script.js"></script>
+
+</body>
+
+</html>
